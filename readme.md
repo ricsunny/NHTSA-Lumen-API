@@ -15,9 +15,9 @@ Clone repository via git:
 
 * Move to `<root>` directory
 
-*cd `<root>`
+* cd `<root>`
 
-*run "composer update"
+* run "composer update"
 
 * Start Server
 
@@ -53,7 +53,6 @@ POST variables set 2:
  "manufacturer": "Toyota",
  "model": "Yaris"
 }
-```
 
 ```
 POST variables set 3:
@@ -61,7 +60,7 @@ POST variables set 3:
  "manufacturer": "Honda",
  "model": "Accord"
 }
-```
+
 
 *Requirement 3*
 
