@@ -1,6 +1,6 @@
-## PHP API Development using Lumen Micro Framework
+# PHP API Development using Lumen Micro Framework
 
-# Framework & Language(s) 
+## Framework & Language(s) 
 Lumen (5.5.2) (Laravel Components 5.5.*)
 
 PHP >= 7.1.3
@@ -27,19 +27,25 @@ php -S localhost:8080 -t ./public
 You could use [Postman app](https://www.getpostman.com/apps) to run examples
 
 *Requirement 1*
-`http://localhost:8080/vehicles/2015/Audi/A3`
-`http://localhost:8080/vehicles/2015/Toyota/Yaris`
-`http://localhost:8080/vehicles/2015/Ford/Crown Victoria`
+
+http://localhost:8080/vehicles/2015/Audi/A3
+
+http://localhost:8080/vehicles/2015/Toyota/Yaris
+
+http://localhost:8080/vehicles/2015/Ford/Crown Victoria
 
 *Requirement 2*
-`http://localhost:8080/vehicles`
 
+http://localhost:8080/vehicles
+
+```
 POST variables set 1:
 {
  "modelYear": 2015,
  "manufacturer": "Audi",
  "model": "A3"
 }
+
 ```
 POST variables set 2:
 {
@@ -47,6 +53,8 @@ POST variables set 2:
  "manufacturer": "Toyota",
  "model": "Yaris"
 }
+```
+
 ```
 POST variables set 3:
 {
@@ -56,9 +64,12 @@ POST variables set 3:
 ```
 
 *Requirement 3*
-`http://localhost:8080/vehicles/2015/Audi/A3/?withRating=true`
-`http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=false`
-`http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=bananas`
+
+http://localhost:8080/vehicles/2015/Audi/A3/?withRating=true
+
+http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=false
+
+http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=bananas
 
 
 ## License
