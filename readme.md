@@ -45,6 +45,7 @@ POST variables set 1:
  "manufacturer": "Audi",
  "model": "A3"
 }
+```
 
 ```
 POST variables set 2:
@@ -53,6 +54,7 @@ POST variables set 2:
  "manufacturer": "Toyota",
  "model": "Yaris"
 }
+```
 
 ```
 POST variables set 3:
@@ -60,7 +62,7 @@ POST variables set 3:
  "manufacturer": "Honda",
  "model": "Accord"
 }
-
+```
 
 *Requirement 3*
 
