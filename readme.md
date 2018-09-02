@@ -2,33 +2,37 @@
 
 # Framework & Language(s) 
 Lumen (5.5.2) (Laravel Components 5.5.*)
+
 PHP >= 7.1.3
+
 NHTSA NCAP 5 Star Safety Ratings API
 
 # Installation
 The system utilizes [Composer](https://getcomposer.org/download/) to manage its dependencies. So, before using the system, make sure you have `Composer` installed on your machine.
 
-Clone repository via git:
+Clone repository via git: 
+`https://github.com/ricsunny/NHTSA-Lumen-API.git`
 
 * Move to `<root>` directory
 
-cd <root>
+*cd `<root>`
 
-run "composer update"
+*run "composer update"
 
-* Start Server 
+* Start Server
+
 php -S localhost:8080 -t ./public
 
 # Example
 You could use [Postman app](https://www.getpostman.com/apps) to run examples
 
 *Requirement 1*
-http://localhost:8080/vehicles/2015/Audi/A3
-http://localhost:8080/vehicles/2015/Toyota/Yaris
-http://localhost:8080/vehicles/2015/Ford/Crown Victoria
+`http://localhost:8080/vehicles/2015/Audi/A3`
+`http://localhost:8080/vehicles/2015/Toyota/Yaris`
+`http://localhost:8080/vehicles/2015/Ford/Crown Victoria`
 
 *Requirement 2*
-http://localhost:8080/vehicles
+`http://localhost:8080/vehicles`
 
 POST variables set 1:
 {
@@ -52,9 +56,9 @@ POST variables set 3:
 ```
 
 *Requirement 3*
-http://localhost:8080/vehicles/2015/Audi/A3/?withRating=true
-http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=false
-http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=bananas
+`http://localhost:8080/vehicles/2015/Audi/A3/?withRating=true`
+`http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=false`
+`http://localhost:8080/vehicles/2015/Toyota/Yaris/?withRating=bananas`
 
 
 ## License
